@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping cart</title>
+    <title>Registration page</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -51,7 +51,7 @@
         </div>
         <section class="registration-content">
             <div class="container registration-container">
-                <div class="form-wrp">
+                <div class="registration-form-wrp">
                     <form action="#" method="post">
                         <fieldset class="fieldset-name">
                             <legend class="form-heading">Your name</legend>
@@ -60,10 +60,10 @@
                         </fieldset>
                         <div class="sex">
                             <label>
-                                <input class="radio-btn" type="radio" name="radio-btn-M">Male
+                                <input class="radio-btn" type="radio" name="sex" value="male">Male
                             </label>
                             <label>
-                                <input type="radio" name="radio-btn-F">Female
+                                <input type="radio" name="sex" value="female">Female
                             </label>
                         </div>
                         <fieldset class="fieldset-name">
@@ -75,7 +75,12 @@
                         </fieldset>
 
                     </form>
+
+                    <div class="join-btn"><button class="join">Join now</button></div>
+
                 </div>
+
+
                 <div class="loyality-wrp">
                     <h2 class="loyality-heading">Loyality has its perks</h2>
                     <p class="loyality-txt">Get in&nbsp;on&nbsp;the loyalty program where you can earn points and unlock
