@@ -1323,7 +1323,7 @@ line-height: 29px;
 
 color: #000000;
   }
-.direction-button{
+.product-direction-button{
   border: none;
 }
   .fa-check{
@@ -1331,4 +1331,9 @@ color: #000000;
   }
   .fas:hover{
     color:#F16D7F;
+  }
+  .pagination-direction-button{
+    border: none;
+    background-color: transparent;
+    margin: 0 16px;
   }
