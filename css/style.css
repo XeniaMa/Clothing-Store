@@ -1323,7 +1323,12 @@ line-height: 29px;
 
 color: #000000;
   }
-
+.direction-button{
+  border: none;
+}
   .fa-check{
     margin-right: 22px;
+  }
+  .fas:hover{
+    color:#F16D7F;
   }
