@@ -1134,12 +1134,14 @@ outline: 1px solid #A4A4A4;
   display: flex;
   flex-direction: column;
   /* justify-content: space-evenly; */
+  margin-top: 57px;
   max-width:360px;
   width: 100%;
   min-height: 214px;
   align-items: flex-end;
   background-color: #F5F3F3;
   box-sizing: border-box;
+
 }
 .sub-total{
   padding: 39px 34px 12px 218px;
@@ -1167,10 +1169,13 @@ position:relative
   background-color: #E2E2E2;;
   position: absolute;
   top: 40px;
-  left: -10px;} 
-
+  left: 0;} 
+.sub-total-price{
+  margin-left: 20px;
+}
 .grand-total-price{
   color: #F16D7F;
+  margin-left: 10px;
  
 }
 .proceed-button{
@@ -1415,5 +1420,33 @@ color: #000000;
 }
 .women-product-price:after{
   left: 50px;
+}
+
+
+/* ////cart */
+.shopping-cart{
+  padding-left: 16px;
+}
+.shopping-cart-container{
+  display: flex;
+  flex-direction: column;
+}
+.right-side-wrp{
+  padding: 0 16px 0;
+
+}
+.cart-item{
+  max-width: 734px;
+}
+.cart-page-button{
+  margin: 62px auto;
+}
+
+.left-side-wrp{
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cart-total{
+  margin-top: 40px;
 }
 }
