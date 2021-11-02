@@ -107,9 +107,6 @@ top: -10px;
 .menu-button-item::after {
 top: 10px;
 }
-.menu-button-input{
-  display: none;
-}
 /* .menu-list {
    display: none; 
   width: 232px;
@@ -665,6 +662,9 @@ align-items: center;
   display: flex;
 
 }
+.breadcrumb-item{
+  text-transform: uppercase;
+}
 .breadcrumb li+li:before {
   padding: 8px;
   color:#636363;
@@ -950,13 +950,7 @@ position: relative;
   top: 25px;
   left: 530px;} 
 
-  .women-collection-photo{
-    transition: 1s;
-
-  }
-  .women-collection-photo:hover{
-    transform: scale(1.2);
-  }
+ 
   /* Cart */
   .shopping-cart-container{
     display: flex;
@@ -979,6 +973,7 @@ position: relative;
   }
   .cart-item-margin{
     margin-top: 96px;
+  
   }
   .cart-item{
     display: flex;
@@ -987,11 +982,14 @@ position: relative;
    width: 100%;
     min-height: 306px;
     /* border: 1px solid black; */
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+    position: relative;
   }
   .cart-item-info{
     display: flex;
     flex-direction: column;
     padding-left: 31px;
+    width: 390px;
   }
   .cart-item-brand-name{
     margin-bottom: 42px;
@@ -1010,6 +1008,48 @@ position: relative;
     line-height: 26px;
    color: #575757;
   padding-bottom: 6px;
+  }
+  .close-btn{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    /* border: 1px solid black; */
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top:28px;
+    right: 22px;
+    }
+  
+    .close {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+  
+      }
+      
+       .close:before, .close:after {
+      content: '';
+      position: absolute;
+      height: 18px;
+      width: 2px;
+      background-color: #575757;
+      } 
+      .close:before {
+      transform: rotate(45deg);
+      }
+      .close:after {
+      transform: rotate(-45deg);
+      }
+    
+  .input-quantity{
+    margin-left: 24px;
+    text-align: center;
+    width: 44px;
+    height: 24px;
+    box-sizing: border-box;
   }
   .cart-item-price{
     color: #EF5B70
@@ -1174,6 +1214,11 @@ text-transform: uppercase;
     display: flex;
     justify-content: space-between;
   }
+  .registration-form-wrp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 59px;
+  }
   .fieldset-name{
     max-width: 360px;
     width: 100%;
@@ -1216,6 +1261,31 @@ color: #B1B1B1;
 
 
   }
+  .join-btn{
+    margin: 39px 0 96px 0;
+  
+  }
+  .join{
+    max-width: 167px;
+    width: 100%;
+    min-height: 50px;
+    padding-right: 20px;
+    background-color: #F16D7F;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    background-image: url(../img/join-now.svg);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 125px;
+
+  }
+  .join:hover{
+    outline: 1px solid black;
+  }
   .loyality-wrp{
     margin-top: 64px;
   }
@@ -1253,7 +1323,17 @@ line-height: 29px;
 
 color: #000000;
   }
-
+.product-direction-button{
+  border: none;
+}
   .fa-check{
     margin-right: 22px;
+  }
+  .fas:hover{
+    color:#F16D7F;
+  }
+  .pagination-direction-button{
+    border: none;
+    background-color: transparent;
+    margin: 0 16px;
   }
