@@ -351,13 +351,8 @@ position: relative;
 }
 .product-item-card-box-photo{
 padding-bottom: 25px;
-transition: 1s;
 }
 
-.product-item-card-box-photo:hover{
-  transform: scale(1.2);
-  padding: 0;
-}
 .product-item-txt{
 font-size: 13px;
 line-height: 16px;
