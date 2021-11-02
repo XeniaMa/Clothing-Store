@@ -825,6 +825,7 @@ width: 296px;
   border: 1px solid #EAEAEA;
   margin-bottom: 127px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .image-slide{
@@ -1337,6 +1338,8 @@ color: #000000;
   }
 
   @media (max-width:768px) {
+
+    /* //////index//// */
     .page-header{
       padding: 18px 15px;
     }
@@ -1397,10 +1400,20 @@ color: #000000;
   .page-footer {
     padding:0 10px;
   }
-}
+/*///// Catalog/////// */
 .new-arrivals{
   padding: 0 16px;
 }
-.catalog-visually-hidden{
+.visually-hidden{
   display: none;
+}
+
+
+/* ////////Product ////// */
+.women-product-heading:after{
+  left: 330px;
+}
+.women-product-price:after{
+  left: 50px;
+}
 }
