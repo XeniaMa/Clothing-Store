@@ -263,16 +263,22 @@ flex-wrap: wrap;
 
 }
 
-.list{
-width: 360px;
-height: 260px;
+ .content-categories-box-clothes{
+max-width: 360px;
+width: 100%;
+min-height: 260px;
 display: flex;
-text-decoration: none;
+} 
+.list{
+  display: flex;
+  width: 100%;
+  text-decoration: none;
 }
 .women{
+
 background-image: url(../img/women.png);
 
-}
+} 
 .men{
 background-image: url(../img/men.png);
 
@@ -281,16 +287,14 @@ background-image: url(../img/men.png);
 background-image: url(../img/kids.png);
 
 }
-.accesories{
-width: 1140px;
-height: 180px;
-margin-top: 30px;
-text-decoration: none;
-display: flex;
-margin-bottom: 96px;
-background-image: url(../img/accesories.png);
-
-} 
+.content-categories-box-accesories{
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  min-height: 180px;
+  background-image: url(../img/accesories.png);
+  margin: 30px 0 96px 0;
+}
 
 .categories-txt{
 font-weight: 400;
@@ -309,11 +313,6 @@ color:  #F16D7F;
 text-transform: uppercase;
 align-self: center;
 display: block;
-}
-
-.product{
-width: 1140px;
-margin: auto;
 }
 
 .product-heading {
@@ -342,7 +341,8 @@ flex-wrap: wrap;
 list-style: none;
 }
 .card{
-width: 360px;
+max-width: 360px;
+width: 100%;
 background: #F8F8F8;
 padding-bottom: 30px;
 margin-bottom: 30px;
@@ -420,7 +420,10 @@ border: 1px solid #FF6A6A;
 margin: 0 auto;
 margin-top: 49px;
 }
-
+.bb:hover{
+  background-color: #F16D7F;
+  color:#FFFFFF;
+}
 .benefits{
   background-color: #222224;
   
@@ -441,7 +444,8 @@ margin-top: 49px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   margin: 0 90px 0 0;
 }
  .benefits-item:nth-child(4n-1) {
@@ -1331,3 +1335,66 @@ color: #000000;
     background-color: transparent;
     margin: 0 16px;
   }
+
+  @media (max-width:768px) {
+    .page-header{
+      padding: 18px 15px;
+    }
+    .promo-container{
+      min-height: 367px;
+      background-size: contain;
+      background-position: -30px;
+    }
+    .promo-wrp{
+      max-width: 311px;
+      margin: 0;
+
+    }
+    .promo-wrp:before {
+      left: -25px;
+    }
+    .promo-title{
+      font-size: 44px;
+      line-height: 53px;
+    }
+    .promo-subtitle{
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .container-categories{
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+    .content-categories-box-clothes{
+      max-width: 232px;
+      min-height: 167px;
+      } 
+      .list{
+        background-size: contain;
+      }
+    
+      .benefits-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 48px 0 64px 0;
+      }
+      .benefits-item{
+        margin: 0;
+      }
+  .subscribe {
+    padding:0 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around; 
+  }
+ .subscribe-container{
+    flex-direction: column;
+    
+  } 
+  .subscribe-feedback{
+    margin-bottom: 64px;
+  }
+  .footer-page {
+    padding:0 10px;
+  }
+}
