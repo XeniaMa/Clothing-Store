@@ -1394,7 +1394,13 @@ color: #000000;
   .subscribe-feedback{
     margin-bottom: 64px;
   }
-  .footer-page {
+  .page-footer {
     padding:0 10px;
   }
+}
+.new-arrivals{
+  padding: 0 16px;
+}
+.catalog-visually-hidden{
+  display: none;
 }
