@@ -330,9 +330,9 @@ line-height: 38.4px;
 .promo-subtitle-fashion{
 color: #F16D7F;
 }
-/* CATEGORIES */
+/* categories*/
 
-.container-categories{
+.categories-container{
 max-width: 1140px;
 width: 100%;
 margin-top: 65px;
@@ -355,7 +355,7 @@ width: 100%;
 min-height: 260px;
 display: flex;
 } 
-.list{
+.content-categories-list{
   display: flex;
   width: 100%;
   text-decoration: none;
@@ -382,7 +382,7 @@ background-image: url(../img/kids.png);
   margin: 30px 0 96px 0;
 }
 
-.categories-txt{
+.content-categories-txt{
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
@@ -391,7 +391,7 @@ text-transform: uppercase;
 margin: auto;
 text-align: center;
 }
-.categories-txt-pink{
+.content-categories-txt-pink{
 font-weight: 700;
 font-size: 24px;
 line-height: 28,8px;
@@ -401,7 +401,7 @@ align-self: center;
 display: block;
 }
 
-.product-heading {
+.content-product-heading {
 font-weight: 400;
 font-size: 30px;
 line-height: 36px;
@@ -410,7 +410,7 @@ text-align: center;
 margin-bottom: 6px;
 }
 
-.product-txt {
+.content-product-txt {
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
@@ -426,10 +426,10 @@ justify-content: space-around;
 flex-wrap: wrap;
 list-style: none;
 }
-.product-item-list{
+.content-product-item-list{
   padding-bottom: 30px;
 }
-.card{
+.content-product-card{
 max-width: 360px;
 width: 100%;
 background: #F8F8F8;
@@ -437,11 +437,11 @@ padding-bottom: 20px;
 text-decoration: none;
 position: relative;
 }
-.product-item-card-box-photo{
+.content-product-item-card-box-photo{
 padding-bottom: 25px;
 }
 
-.product-item-txt{
+.content-product-item-txt{
 font-size: 13px;
 line-height: 16px;
 color: #000000;
@@ -449,7 +449,7 @@ padding-bottom: 12px;
 padding-left: 18px;
 text-transform: uppercase;
 }
-.product-item-description{
+.content-product-item-description{
 font-weight: 300;
 font-style: light;
 font-size: 14px;
@@ -457,7 +457,7 @@ line-height: 17px;
 color: #5D5D5D;
 padding: 12px 0 12px 18px;
 }
-.price{
+.content-product-price{
 font-size: 16px;
 line-height: 19px;
 color: #F16D7F;
@@ -466,15 +466,15 @@ padding-top: 18px;
 margin: auto;
 }
 
-.brightness:hover .products-item-btn{
+.brightness:hover .content-product-item-btn{
   display: flex;
 }
-.brightness:hover .product-item-card-box-photo{
+.brightness:hover .content-product-item-card-box-photo{
   filter: brightness(20%);
   transition: 1s;
 }
 
-.products-item-btn {
+.content-product-item-btn {
    display: none;
    /* display: flex; */
   justify-content: center;
@@ -492,14 +492,23 @@ margin: auto;
   left: 32.7%;
 }
 
-.products-item-btn svg {
+.content-product-item-btn svg {
   fill: #fff;
   margin: 0 11px 0 0;
 }
-.button{
+.content-product-button{
 display:flex;
+margin: 48px auto 95px auto;
+font-size: 16px;
+line-height: 19px;
+color: #F26376;
+ padding: 14px 38px; 
+text-decoration: none;
+border: 1px solid #FF6A6A;
+background-color: #FFFFFF;
+
 }
-.bb{
+/* .bb{
 font-size: 16px;
 line-height: 19px;
 color: #F26376;
@@ -508,13 +517,13 @@ text-decoration: none;
 display: inline-block;
 border: 1px solid #FF6A6A;
 margin: 0 auto;
-margin-top: 49px;
-}
-.bb:hover{
+
+} */
+.content-product-button:hover{
   background-color: #F16D7F;
   color:#FFFFFF;
 }
-.benefits{
+.content-benefits{
   background-color: #222224;
   
 }
@@ -529,7 +538,7 @@ margin-top: 49px;
   box-sizing: border-box;
 }
 
-.benefits-item {
+.content-benefits-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -538,15 +547,15 @@ margin-top: 49px;
   width: 100%;
   margin: 0 90px 0 0;
 }
- .benefits-item:nth-child(4n-1) {
+ .content-benefits-item:nth-child(4n-1) {
   margin: 0;
 } 
-.benefits-icon {
+.content-benefits-icon {
   display: block;
   margin: 0 0 28px 0;
   fill: #F16D7F;
 }
-.benefits-heading {
+.content-benefits-heading {
   display: block;
   width: 100%;
   margin: 0 0 16px 0;
@@ -556,7 +565,7 @@ margin-top: 49px;
   color: #FBFBFB;
   text-align: center;
 }
-.benefits-text {
+.content-benefits-text {
   font-weight: 300;
   font-size: 13.97px;
   line-height: 16.77px;
@@ -564,7 +573,7 @@ margin-top: 49px;
   color: #FBFBFB;
 }
 
-.subscribe{
+.content-subscribe{
 width: 100%;
 min-height: 448px;
 background-color: #F4F4F4;
@@ -578,7 +587,7 @@ justify-content: space-between;
 align-items: center;
 
 }
-.subscribe-feedback{
+.content-subscribe-feedback{
 min-height: 150px;
 display: flex; 
 flex-direction: column;
@@ -587,7 +596,7 @@ background-repeat: no-repeat;
 background-position: top;
 }
 
-.feedback{
+.subscribe-feedback-txt{
 width: 359px;
 font-weight: 400;
 font-size: 20px;
@@ -597,12 +606,12 @@ color: #222224;
 padding-top: 105px;
 
 }
-.feedback-italic{
+.subscribe-feedback-txt-italic{
   font-style: italic;
 }
 
 
-.subscribe-wrp-title{
+.content-subscribe-wrp-title{
 display: block;
 margin: 0 0 10px 0;
 font-weight: 700;
@@ -613,7 +622,7 @@ text-align: center;
 text-transform: uppercase;
 
 }
-.subscribe-wrp-subtitle{
+.content-subscribe-wrp-subtitle{
 display: block;
 margin: 0 0 32px 0;
 font-weight: 400;
@@ -622,14 +631,14 @@ line-height: 167.2%;;
 text-align: center;
 color: #222224;
 }
-.subscribe-form{
+.content-subscribe-form{
 display: flex;
 justify-content: center;
 align-items: center;
 width: 356px;
 
 }
-.subscribe-form-email{
+.content-subscribe-form-email{
 
 width: 256px;
 min-height: 48px;
@@ -645,10 +654,10 @@ color: #222224;
 opacity: 0.67;
 
 }
-.subscribe-form-email:hover{
+.content-subscribe-form-email:hover{
   outline: 1px solid black;
 }
-.subscribe-form-btn{
+.content-subscribe-form-btn{
 display: flex;
 margin: 0 auto;
 width: 100px;
@@ -664,13 +673,13 @@ border: none;
 border-radius: 0 30px 30px 0;
 
 }
-.subscribe-form-btn:hover{
+.content-subscribe-form-btn:hover{
   outline: 1px solid black;
 }
-footer{
+.page-footer{
 background: #222224;
 }
-.footer-information{
+.page-footer-container{
 min-height: 79px;
 margin: auto;
 display: flex;
@@ -683,21 +692,21 @@ height: 32px;
 background: #FFFFFF;
 padding: 8px;
 }
-.footer-rights{
+.page-footer-rights{
 font-size: 16px;
 line-height: 19px;
 
 color: #FBFBFB;
 }
 
-.socials{
+.page-footer-socials-list{
 width: 147px;
 list-style: none;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.socials-link{
+.page-footer-socials-link{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -706,11 +715,11 @@ align-items: center;
   background-color: #fff;
 }
 
-.socials-icon{
+.page-footer-socials-icon{
   fill:#000;
 }
 
-.socials-link:hover {
+.page-footer-socials-link:hover {
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -718,7 +727,7 @@ align-items: center;
   height: 32px; 
   background-color: #F16D7F;
 } 
-.socials-link:hover .socials-icon{
+.page-footer-socials-link:hover .page-footer-socials-icon{
   fill: #fff;
 }
 
@@ -1240,22 +1249,6 @@ margin: 7px 0 0 10px
  
  
   /* Product */
-.women-product{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  max-width: 1142px;
-  width: 100%;
-  height: 731px;
-  margin: 0 auto;
-  margin-top: -86px;
-  background-color: white;
-  border: 1px solid #EAEAEA;
-  margin-bottom: 127px;
-  position: relative;
-  box-sizing: border-box;
-}
-
 .image-slide{
  min-height: 777px;
 background-color: #F7F7F7;
@@ -1279,12 +1272,22 @@ align-items: center;
   line-height: 48px;
   position: relative;
 }
-  .women-product-about-product{
-    min-height: 601px;
-    margin: 0 auto;
-  }
+.women-product{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  max-width: 1142px;
+  width: 100%;
+  min-height: 601px;
+  margin: -65px auto 127px auto;
+  background-color: white;
+  border: 1px solid #EAEAEA;
+  
+  position: relative;
+  box-sizing: border-box;
+}
 .women-product-heading{
-   /* margin-top: 64px; */
+  padding-top: 65px;
   font-weight: 300; 
   font-size: 14px;
   line-height: 16.8px;
@@ -1293,6 +1296,15 @@ align-items: center;
   text-transform: uppercase;
  position: relative;
 }
+.women-product-heading:after {
+  content: "";
+  display: inline-block;
+  width: 63px;
+  height: 3px;
+  background-color: #F16D7F;
+  position: absolute;
+  top: 90px;
+  left: 530px;} 
 .women-product-brand{
   margin-top: 27px;
 font-weight: 300;
@@ -1336,17 +1348,22 @@ position: relative;
 
 .women-product-form-wrp{
   display: flex;
-  justify-content: space-around;
-    max-width: 373px;
+  justify-content: center;
+    /* max-width: 373px; */
     width: 100%;
     margin: 130px auto 0;
 }
-
+.choose-color{
+  margin-right: 23px;
+}
+.choose-size-list{
+  margin-right: 23px;
+}
   .women-product-btn {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin: 0 auto 64px;
+   margin: 48px auto 65px auto;
    max-width: 212px;
    width: 100%;
    min-height: 48px;
@@ -1367,15 +1384,6 @@ position: relative;
    margin: 0 11px 0 0; 
  }
 
- .women-product-heading:after {
-  content: "";
-  display: inline-block;
-  width: 63px;
-  height: 3px;
-  background-color: #F16D7F;
-  position: absolute;
-  top: 25px;
-  left: 530px;} 
 
  
   /* Cart */
@@ -1780,10 +1788,12 @@ color: #000000;
 
   @media (max-width:768px) {
 
-    /* //////index//// */
+    /* //////INDEX//// */
+    /* page-header */
     .page-header{
-      padding: 18px 15px;
+      padding: 18px 32px;
     }
+    /* promo */
     .promo-container{
       min-height: 367px;
       background-size: contain;
@@ -1805,7 +1815,9 @@ color: #000000;
       font-size: 24px;
       line-height: 29px;
     }
-    .container-categories{
+    /* content-categories */
+    .categories-container{
+      margin-top: 20px;
       padding: 0 16px;
       box-sizing: border-box;
     }
@@ -1813,55 +1825,84 @@ color: #000000;
       max-width: 232px;
       min-height: 167px;
       } 
-      .product-item-list{
+      .content-categories-box-accesories{
+        margin: 20px 0 154px 0;
+      }
+      .content-product-txt{
+        margin-bottom: 73px;
+      }
+      .content-product-item-list{
         padding-bottom: 16px;
       }
-      .list{
-        background-size: contain;
-      }
     
+      .content-product-button{
+        margin: 32px auto 64px auto;
+  
+        }
+    /* benefits */
       .benefits-container{
         flex-direction: column;
         align-items: center;
         padding: 48px 0 64px 0;
-      }
-      .benefits-item{
         margin: 0;
       }
-  .subscribe {
-    padding:0 10px;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: space-around; 
-  }
+      .content-benefits-item{
+        margin: 0 0 48px 0;
+      }
+/* subscribe */
  .subscribe-container{
-    flex-direction: column;
-    
+  flex-direction: column;
+  min-height: 614px;
+  padding:0 10px;
+  box-sizing: border-box;
   } 
-  .subscribe-feedback{
-    margin-bottom: 64px;
+  .content-subscribe-feedback{
+    margin-top: 64px;
   }
+  .content-subscribe-wrp{
+    margin-bottom: 140px;
+  }
+  .content-subscribe-wrp-title{
+    line-height: 39px;
+  }
+  .content-subscribe-wrp-subtitle{
+    line-height: 22px;
+  }
+  /* page-footer */
   .page-footer {
-    padding:0 10px;
+    padding:0 32px;
   }
 /*///// Catalog/////// */
 .new-arrivals{
   padding: 0 16px;
 }
-.visually-hidden{
+
+/* .content-product-item-list:last-child{
   display: none;
-}
-
-
+} */
 /* ////////Product ////// */
+.image-slide{
+  min-height: 624px;
+}
+.women-collection-photo{
+  max-height: 565px;
+}
+.women-product{
+  margin:0 ;
+}
 .women-product-heading:after{
-  left: 330px;
+  left: 350px;
 }
 .women-product-price:after{
   left: 50px;
 }
+/* .card-box{
+  flex-direction: row-reverse;
 
-
+} */
+.benefits{
+  display: none;
+}
 /* ////cart */
 .shopping-cart{
   padding-left: 16px;
@@ -1912,10 +1953,17 @@ padding-left: 16px;
   line-height: 19px;
 }
 }
- @media (max-width:480px) {
+ @media (min-width:375px) and (max-width:480px) {
 
   /* //////////INDEX////////// */
   /* HEADER */
+  .page-header{
+    padding:18px 10px;
+    
+  }
+  .page-header-wrp{
+    align-self: center;
+  }
   .menu-mobile{
     justify-content: flex-end;
   }
@@ -1925,7 +1973,7 @@ padding-left: 16px;
   .cart-button{
     display: none;
   }
-  /* PROMO */
+  /* promo */
    .promo-container{
     background-image: none;
   } 
@@ -1945,7 +1993,10 @@ padding-left: 16px;
     font-size: 20px;
     line-height: 24px;
   }
-/* CATEGORIES */
+/* categories */
+.categories-container{
+  margin-top: 64px;
+}
 .content-categories-box-list{
   justify-content: center;
 }
@@ -1962,24 +2013,36 @@ padding-left: 16px;
   min-height: 111px;
   margin: 0 0 64px 0;
 }
-/* PRODUCT */
-.product-item-list{
+/* product */
+.content-product-txt{
+  margin-bottom: 64px;
+}
+.content-product-item-list{
   padding-bottom: 16px;
 }
-.product-item-list:last-child{
+.content-product-item-list:last-child{
   padding-bottom: 0;
 }
+.content-product-button{
+  margin: 40px auto 96px auto;
+}
+.card-box{
+  margin: 0;
+}
 /* BUTTON */
-.bb{
-  margin-top: 41px;
+.button{
+  margin: 40px 0 96px 0;
 }
 /* BENEFITS */
 .benefits-item{
   margin-bottom: 47px;
 }
 /* SUBSCRIBE */
+.subscribe{
+  background-position: -400px;
+}
 .subscribe-feedback{
-  margin-top: 64px;
+  margin: 64px 0 59px;
   background-size: 25%;
 }
 .feedback{
@@ -1995,7 +2058,6 @@ padding-left: 16px;
 }
 .subscribe-form{
   max-width: 341px;
-  margin-bottom: 109px;
 }
 .footer-information{
   flex-direction: column-reverse;
@@ -2077,4 +2139,59 @@ padding-left: 16px;
   margin-top: 0;
 }
 
+
+/* ////PRODUCT/////// */
+.image-slide{
+  min-height: 624px;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.women-collection-photo{
+  max-width: 374px;
+  max-height: 454px;
+  width: 100%;
+}
+.women-product{
+  min-height: 600px;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 64px;
+}
+
+.women-product-heading:after{
+  width:63px;
+  top:95px;
+  left:195px;
+
+}
+.women-product-description{
+  max-width: 326px;
+  margin-top: 32px;
+}
+.women-product-price{
+  line-height: 31px;
+}
+.women-product-price::after{
+  width:175px;
+  top:55px;
+  left:150px;
+}
+.women-product-form-wrp{
+  margin: 81px 0 0;
+}
+.x{
+  font-size: 10px;
+  line-height: 12px;
+}
+.women-product-form-icon{
+  fill: #6F6E6E;
+  margin-left: 10px;
+}
+/* .content-product-item-list:last-child{
+  display: block;
+} */
+/* .content-product-item-list:nth-child(2){
+  display: none; 
+} */
 } 
