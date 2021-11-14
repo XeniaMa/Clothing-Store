@@ -922,7 +922,7 @@ font-weight: 400;
 
 }
 
-/*TRENDING BUTTON  */
+/*trending button  */
 .trending-list {
   margin-right: 28px;
   width: 132px;
@@ -1007,7 +1007,7 @@ font-weight: 400;
   position: absolute;
 margin: 7px 0 0 10px
 }
-/* SIZE BUTTON */
+/* size button */
 .size-list {
   width: 79px;
   border: none;
@@ -1095,7 +1095,7 @@ margin: 7px 0 0 10px
   
 }
 
-/*PRICE BUTTON  */
+/*price button */
 .price-list {
   margin-right: 28px;
   width: 132px;
@@ -1219,6 +1219,14 @@ margin: 7px 0 0 10px
   line-height: 17px;
   color: #5D5D5D;
   padding: 12px 0 18px 16px;
+  }
+  .catalog-price{
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding-left: 18px;
+    padding-top: 18px;
+    margin: auto;
   }
   .pagination {
     margin: 0 auto;
@@ -1872,14 +1880,53 @@ color: #000000;
   .page-footer {
     padding:0 32px;
   }
-/*///// Catalog/////// */
+/*///// CATALOG/////// */
 .new-arrivals{
   padding: 0 16px;
 }
 
-/* .content-product-item-list:last-child{
+.catalog-product-list:nth-child(3){
   display: none;
-} */
+}
+
+.filter-container{
+  justify-content: space-between;
+  height: 71px;
+}
+.filter{
+  margin-top: 11px;
+}
+.form-wrp{
+  max-width: 296px;
+  height: 71px;
+  padding-right: 16px;
+  width: 100%;
+  margin: 0;
+  margin-top: 24px;
+}
+.trending-list{
+  margin-right: 28px;
+}
+.size-list{
+  max-width:49px;
+  width: 100%;
+  margin-right: 28px;
+}
+.price-list{
+  max-width: 59px;
+  width:100%;
+  margin-right: 16px;
+}
+.catalog{
+  margin-top: 0;
+}
+.catalog-product-list{
+  margin-bottom: 16px;
+}
+.pagination{
+  margin: 40px auto 63px auto;
+}
+
 /* ////////Product ////// */
 .image-slide{
   min-height: 624px;
@@ -2059,15 +2106,15 @@ padding-left: 16px;
 .subscribe-form{
   max-width: 341px;
 }
-.footer-information{
+.page-footer-container{
   flex-direction: column-reverse;
   min-height: 143px;
 }
-.rights{
-  margin-bottom: 6px;
+.page-footer-rights{
+  margin-bottom: 24px;
 }
-.footer-socials{
-  margin: 43px 0;
+.page-footer-socials{
+  margin: 43px 0 25px 0;
 }
 /* /////CATALOG///// */
 .new-arrivals-container{
@@ -2138,7 +2185,10 @@ padding-left: 16px;
 .catalog{
   margin-top: 0;
 }
-
+.pagination{
+  margin-top: 24px;
+    margin-bottom: 63px;
+}
 
 /* ////PRODUCT/////// */
 .image-slide{
