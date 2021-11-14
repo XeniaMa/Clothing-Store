@@ -1740,6 +1740,7 @@ color: #222222;
     font-size: 13px;
     line-height: 16px;
     color: #B1B1B1;
+    box-sizing: border-box;
   }
   .sex{
     display: flex;
@@ -2060,6 +2061,9 @@ padding-left: 16px;
   font-size: 16px;
   line-height: 19px;
 }
+.join-btn{
+  margin: 39px 0 30px 0;
+}
 }
 
 @media (min-width:480px) and (max-width:768px) {
@@ -2227,6 +2231,36 @@ line-height: 29x;
 }
 .cart-total{
   margin: 48px auto 96px auto;
+}
+/* //////REGISTRATION//// */
+.registration-txt{
+  text-align: center;
+}
+.registration-container{
+  flex-direction: column;
+
+}
+.registration-form-wrp{
+  margin: 40px auto;
+}
+.join-btn{
+  margin: 39px 0 0;
+}
+.loyality-wrp{
+  margin: 0 auto 32px auto;
+  padding: 0 5px;
+}
+.loyality-heading{
+  font-size: 16px;
+    line-height: 19px;
+}
+.loyality-txt{
+  font-size: 16px;
+    line-height: 19px;
+}
+.loyality-list-item{
+  font-size: 16px;
+    line-height: 19px;
 }
 }
  @media (min-width:375px) and (max-width:480px) {
@@ -2533,4 +2567,34 @@ line-height: 22px;
   margin: 48px auto 96px auto;
 }
 
+/* //////REGISTRATION//// */
+.registration-txt{
+  text-align: center;
+}
+.registration-container{
+  flex-direction: column;
+
+}
+.registration-form-wrp{
+  margin: 40px auto;
+}
+.join-btn{
+  margin: 39px 0 0;
+}
+.loyality-wrp{
+  margin: 0 auto 32px auto;
+  padding: 0 5px;
+}
+.loyality-heading{
+  font-size: 16px;
+    line-height: 19px;
+}
+.loyality-txt{
+  font-size: 16px;
+    line-height: 19px;
+}
+.loyality-list-item{
+  font-size: 16px;
+    line-height: 19px;
+}
 } 
