@@ -1833,6 +1833,18 @@ color: #000000;
       max-width: 232px;
       min-height: 167px;
       } 
+      .women{
+        background-size: contain;
+      }
+      .men{
+        background-size: contain;
+      }
+      .kids{
+        background-size: contain;
+      }
+      .accessories{
+        background-size: contain;
+      }
       .content-categories-box-accesories{
         margin: 20px 0 154px 0;
       }
@@ -2009,6 +2021,52 @@ padding-left: 16px;
 .page-header{
   padding: 18px 32px;
 }
+/* promo */
+.promo-container{
+  min-height: 367px;
+  background-image: none;
+}
+.promo-wrp{
+  margin: 0 auto;
+}
+/* categories */
+.categories-container{
+  margin-top: 64px;
+}
+.content-categories-box-list{
+  justify-content: center;
+}
+
+.content-categories-box-clothes{
+  max-width: 343px;
+  width: 100%; 
+  min-height: 247px;
+  margin-bottom: 32px;
+}
+.content-categories-box-accesories{
+  max-width: 343px;
+  width: 100%;
+  min-height: 111px;
+  margin: 0 0 64px 0;
+}
+/* product */
+.content-product-txt{
+  margin-bottom: 64px;
+}
+.content-product-item-list{
+  padding-bottom: 16px;
+}
+.content-product-item-list:last-child{
+  padding-bottom: 0;
+}
+.content-product-button{
+  margin: 40px auto 96px auto;
+}
+.card-box{
+  margin: 0;
+}
+
+
 .new-arrivals{
   padding: 0 16px;
 }
@@ -2082,6 +2140,7 @@ line-height: 29x;
   /* promo */
    .promo-container{
     background-image: none;
+    min-height: 363px;
   } 
   .promo-wrp{
     width:263px;
@@ -2135,10 +2194,6 @@ line-height: 29x;
 .card-box{
   margin: 0;
 }
-/* BUTTON */
-.button{
-  margin: 40px 0 96px 0;
-}
 
 /* benefits */
 .benefits-container{
@@ -2157,6 +2212,9 @@ min-height: 550px;
 padding:0 10px;
 box-sizing: border-box;
 } 
+.content-subscribe{
+  background-position: -400px;
+}
 .content-subscribe-feedback{
 margin-top: 64px;
 }
